@@ -11,8 +11,10 @@ RUN npm i -g sfdx-cli prettier prettier-plugin-apex
 
 ENV SHELL=/bin/bash
 
-# Install linter
-RUN code-server --install-extension dbaeumer.vscode-eslint esbenp.prettier-vscode salesforce.salesforcedx-vscode --extensions-dir /home/coder/.local/share/code-server/extensions
+# Install vscode extensions
+RUN code-server --install-extension dbaeumer.vscode-eslint 
+RUN code-server --install-extension esbenp.prettier-vscode
+RUN code-server --install-extension salesforce.salesforcedx-vscode
 
 # Install apt packages:
 # RUN sudo apt-get install -y ubuntu-make
