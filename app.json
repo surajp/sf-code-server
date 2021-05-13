@@ -2,7 +2,7 @@
   "name": "code-server-heroku",
   "description": "A code-server environment designed to run in your Heroku and set up for Salesforce development",
   "repository": "https://github.com/surajp/sf-code-server",
-  "logo": "https://avatars.githubusercontent.com/u/22407953?s=460&u=32797cfb0541bebfcf10a4613f56a65acd9f516d&v=4",
+  "logo": "https://www.salesforce.com/news/?action=sf_asset_collection_download&collection=company-logos-and-video&asset=salesforce-logo",
   "keywords": [
     "node",
     "express",
