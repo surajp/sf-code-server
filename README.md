@@ -1,4 +1,4 @@
-# code-server-heroku
+# Salesforce Code Server on Heroku
 
 Launch automatic cloud dev workspaces ☁️
 

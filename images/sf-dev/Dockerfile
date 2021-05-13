@@ -4,7 +4,7 @@ USER coder
 
 # Install NodeJS 12.x
 RUN curl -fsSL https://deb.nodesource.com/setup_15.x | sudo bash -
-RUN sudo apt-get install -y nodejs openjdk-11-jdk-headless
+RUN sudo apt-get install -y git nodejs openjdk-11-jdk-headless
 RUN npm config set prefix="/home/code/.npm"
 RUN echo "export PATH=$PATH:/home/code/.npm/bin" >> /home/code/.bashrc
 npm i -g sfdx-cli prettier prettier-plugin-apex
