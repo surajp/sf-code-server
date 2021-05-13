@@ -4,6 +4,7 @@
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
   "git.autofetch": true,
+  "terminal.integrated.fontFamily": "Consolas",
   "prettier.prettierPath": "/home/coder/.npm/lib/node_modules/prettier",
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
