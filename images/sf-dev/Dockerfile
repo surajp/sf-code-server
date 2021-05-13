@@ -5,8 +5,8 @@ USER coder
 # Install NodeJS 
 RUN curl -fsSL https://deb.nodesource.com/setup_15.x | sudo bash -
 RUN sudo apt-get install -y git nodejs openjdk-11-jdk-headless
-RUN npm config set prefix="/home/code/.npm"
-RUN echo "export PATH=$PATH:/home/code/.npm/bin" >> /home/code/.bashrc
+RUN npm config set prefix="/home/coder/.npm"
+RUN echo "export PATH=$PATH:/home/coder/.npm/bin" >> /home/coder/.bashrc
 RUN npm i -g sfdx-cli prettier prettier-plugin-apex
 
 ENV SHELL=/bin/bash
