@@ -1,0 +1,17 @@
+{
+  "workbench.colorTheme": "Default Dark+",
+  "git.postCommitCommand": "sync",
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "prettier.prettierPath": "/home/coder/.npm/lib/node_modules/prettier",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "salesforcedx-vscode-apex.java.home": "/usr/lib/jvm/java-11-openjdk-amd64",
+  "java.home": "/usr/lib/jvm/java-11-openjdk-amd64",
+  "workbench.editor.enablePreview": false,
+  "salesforcedx-vscode-core.retrieve-test-code-coverage": true,
+  "prettier.resolveGlobalModules": true,
+  "salesforcedx-vscode-core.experimental.deployRetrieve": true,
+  "salesforcedx-vscode-core.telemetry.enabled": false
+}
